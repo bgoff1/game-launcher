@@ -1,0 +1,30 @@
+{
+  "name": "@bgoff1/game-launcher",
+  "version": "1.0.3",
+  "description": "Game Launcher made in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "^7.1.10",
+    "electron-builder": "^22.3.2"
+  },
+  "dependencies": {
+    "electron-store": "^5.1.0"
+  },
+  "repository": "https://github.com/bgoff1/game-launcher.git",
+  "author": "Judah Goff <bgoff1@harding.edu>",
+  "license": "MIT",
+  "build": {
+    "appId": "bgoff1.game-launcher",
+    "productName": "game-launcher",
+    "win": {
+      "target": "msi",
+      "icon": "icon.png",
+      "artifactName": "${productName}-${version}.${ext}"
+    }
+  }
+}

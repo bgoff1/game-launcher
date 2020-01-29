@@ -1,0 +1,25 @@
+button[type="submit"] {
+  display: none;
+}
+
+#remove-checked {
+  float: right;
+}
+
+.new-game {
+  text-align: center;
+}
+
+#submit-game {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+#select-file {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.hide {
+  display: none;
+}

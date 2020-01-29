@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet"  type="text/css" href="./index.css">
+    <title>Game Launcher</title>
+  </head>
+  <body>
+    <button id="remove-checked">Remove Checked</button>
+    <div id="game-list"></div>
+
+    <hr>
+
+    <div class="new-game">
+      <button id="select-file">Add New Game!</button>
+      <div id="selected-file"></div>
+      <input type="text" id="game-name">
+      <br>
+      <button id="submit-game">Submit!</button>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
