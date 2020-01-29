@@ -1,6 +1,6 @@
 {
   "name": "@bgoff1/game-launcher",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Game Launcher made in Electron",
   "main": "main.js",
   "scripts": {
