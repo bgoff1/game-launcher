@@ -20,11 +20,11 @@
   "license": "MIT",
   "build": {
     "appId": "bgoff1.game-launcher",
-    "productName": "game-launcher",
+    "productName": "Game Launcher",
     "win": {
       "target": "msi",
       "icon": "icon.png",
-      "artifactName": "${productName}-${version}.${ext}"
+      "artifactName": "game-launcher-${version}.${ext}"
     }
   }
 }
